@@ -1,24 +1,26 @@
-<p id="notice"><%= notice %></p>
+<div class="container page">
 
-<p>
-  <strong>First name:</strong>
-  <%= @student.first_name %>
-</p>
+	<p>
+		<strong>First name:</strong>
+		<%= @student.first_name %>
+	</p>
 
-<p>
-  <strong>Last name:</strong>
-  <%= @student.last_name %>
-</p>
+	<p>
+		<strong>Last name:</strong>
+		<%= @student.last_name %>
+	</p>
 
-<p>
-  <strong>Email address:</strong>
-  <%= @student.email_address %>
-</p>
+	<p>
+		<strong>Email address:</strong>
+		<%= @student.email_address %>
+	</p>
 
-<p>
-  <strong>Phone number:</strong>
-  <%= @student.phone_number %>
-</p>
+	<p>
+		<strong>Phone number:</strong>
+		<%= @student.phone_number %>
+	</p>
 
-<%= link_to 'Edit', edit_student_path(@student) %> |
-<%= link_to 'Back', owner_path %>
+	<%= link_to 'Edit', edit_student_path(@student), class: "btn btn-link" %> |
+	<%= link_to 'Back', owner_path, class: "btn btn-link" %>
+
+</div>

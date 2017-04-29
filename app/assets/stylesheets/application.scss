@@ -16,7 +16,12 @@
 
 @import "bootstrap";
 
-.page {
-padding-top: 40px;
-padding-bottom: 40px;
+.jumbotron .container {
+max-width: 40rem;
 }
+
+.page {
+padding-top:40px;
+padding-bottom:40px;
+}
+
